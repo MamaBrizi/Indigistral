@@ -3,20 +3,21 @@
 // Color overrides
 
 // Set a custom color
-$orange: #f4623a !default;
+$orange: #FFBC6B !default;
 $brown: #5c4d42 !default;
+$navy: #2A263D !default;
 
 // Set primary color to orange
 $primary: $orange !default;
 
 // Font overrides
-$font-family-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
+$font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
 
-$font-family-serif: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
+$font-family-serif: "Playfair Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", 'Noto Color Emoji' !default;
 
-$font-family-base: $font-family-serif !default;
+$font-family-base: $font-family-sans-serif !default;
 
-$headings-font-family: $font-family-sans-serif !default;
+$headings-font-family: $font-family-serif !default;
 
 // Custom variables
 $navbar-height: 72px;
